@@ -15,6 +15,11 @@ const router = createRouter({
       component: () => import('../views/FrameExtractorView.vue'),
     },
     {
+      path: '/canvasmeasuring',
+      name: 'canvasmeasuring',
+      component: () => import('../views/CanvasMeasuringView.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),
