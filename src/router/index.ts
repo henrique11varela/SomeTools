@@ -20,6 +20,11 @@ const router = createRouter({
       component: () => import('../views/CanvasMeasuringView.vue'),
     },
     {
+      path: '/fovexample',
+      name: 'fovexample',
+      component: () => import('../views/FOVExampleView.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),
